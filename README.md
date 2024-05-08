@@ -13,7 +13,7 @@ For our primary analysis, ensure that `malicious_phish.csv` dataset is downloade
 
 ## HTTP Request Analysis 2
 
-The secondary HTTP Request analysis follows a similar format, but gathering HTTP Request data is performed in a different notebook. If you'd like to skip the scraping step, partially scraped data is already stored in `malicious_html_enhanced.csv`.
+The secondary HTTP Request analysis follows a similar format, but gathering HTTP Request data is performed in a different notebook. If you'd like to skip the scraping step, partially scraped data is already stored in `filtered_html_enhanced.csv`. The dataset and additional metadata due to cookies and headers will be filtered down due to github size limit.
 
 1. To web scrape data, open the `HTML_Scraper.ipynb` file. Set the `original_dataset_path` to the csv of the original downloaded dataset. 
 2. Set `new_dataset_path` to the name for your new dataset csv with HTTP Request data. 
